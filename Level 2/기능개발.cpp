@@ -28,9 +28,8 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
         if(max >= work.front()){
             cnt++;
             work.pop();
-            if(work.empty() == true){
+            if(work.empty() == true)
                 answer.push_back(cnt);
-            }
         } else {
             answer.push_back(cnt);
             cnt = 0;
