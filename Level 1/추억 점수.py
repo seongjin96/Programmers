@@ -18,3 +18,9 @@ def solution(name, yearning, photo):
                 score += score_dic[nick]
         answer.append(score)
     return answer
+
+
+
+# * 노트사항
+# defaultdict 사용해볼 것 => dict에 키 값이 없을 경우 default값 반환
+# https://docs.python.org/3/library/collections.html?highlight=defaultdict#collections.defaultdict
