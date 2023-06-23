@@ -15,7 +15,6 @@ def solution(s):
         else:
           answer += word[0].upper() + word[1:len(word)] + ' '
 
-    print(answer)
     return answer[0: len(answer) - 1]
 
 solution(s)
