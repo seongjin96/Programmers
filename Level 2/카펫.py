@@ -5,8 +5,8 @@ Leo가 본 카펫에서 갈색 격자의 수 brown, 노란색 격자의 수 yell
 def solution(brown, yellow):
   answer = 0
 
-  x = int(brown / 2 - 1) 
-  y = 1
+  x = int(brown / 2 - 1)  # 가로 크기 최대값
+  y = 1 # 중앙에 들어갈 세로 크기 최소값
 
   while (x > 0):
     if y * (x - 2) == yellow:
